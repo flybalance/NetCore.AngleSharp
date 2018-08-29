@@ -37,7 +37,7 @@ namespace NetCore.AngleSharpProgram
 
             for (var i = 1; i <= totlaPage; i++)
             {
-                var eachPageUrl = $"https://www.cnblogs.com";
+                var eachPageUrl = $"https://www.cnblogs.com/#p{i}";
                 var eachPageDocument = BrowsingContext.New(config).OpenAsync(eachPageUrl);
 
                 var itemSelector = eachPageDocument.Result.QuerySelectorAll("#post_list > .post_item");
