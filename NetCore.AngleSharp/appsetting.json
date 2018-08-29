@@ -1,0 +1,9 @@
+{
+  "RabbitMQ": {
+    "Host": "",
+    "virtualHost": "",
+    "Queue": "",
+    "UserName": "",
+    "Password": ""
+  }
+}
